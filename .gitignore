@@ -1,5 +1,7 @@
 .settings/
 target/
 src/main/java/recipes/
+src/main/java/provided/entity/
 src/main/resources/recipe_schema.sql
 src/main/resources/recipe schema.png
+src/main/resources/recipe_data.sql

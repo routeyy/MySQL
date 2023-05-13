@@ -20,10 +20,10 @@ public class DbConnection {
     
     try {
       Connection conn = DriverManager.getConnection(url);
-      System.out.println("Connection successful!");
+      System.out.println("\nConnection successful!");
       return conn;
     } catch (SQLException e) {
-      System.out.println("Connection unsuccessful.");
+      System.out.println("\nConnection unsuccessful.");
       throw new DbException(e);
     }
   }
